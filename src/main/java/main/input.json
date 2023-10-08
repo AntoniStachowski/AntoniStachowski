@@ -1,0 +1,117 @@
+{
+    "info":
+    {
+        "dlugosc": 3,
+        "gielda": "kapitalistyczna",
+        "kara_za_brak_ubran": 20,
+        "ceny":
+        {
+            "programy": 1.3,
+            "jedzenie": 0.5,
+            "ubrania": 5.3,
+            "narzedzia": 2.0
+        }
+    },
+    "robotnicy": [
+    {
+        "id": 1,
+        "poziom": 1,
+        "kariera": "programista",
+        "kupowanie":
+        {
+            "typ": "czyscioszek"
+        },
+        "produkcja":
+        {
+            "typ": "chciwy"
+        },
+        "uczenie":
+        {
+            "typ": "pracus"
+        },
+        "zmiana": "rewolucjonista",
+        "produktywnosc":
+        {
+            "programy": 100,
+            "jedzenie": 100,
+            "diamenty": 100,
+            "ubrania": 100,
+            "narzedzia": 100
+        },
+        "zasoby":
+        {
+            "diamenty": 100,
+            "ubrania": 100,
+            "narzedzia": 0,
+            "jedzenie": 100,
+            "programy": 100
+        }
+    },
+    {
+        "id": 2,
+        "poziom": 1,
+        "kariera": "rzemieslnik",
+        "kupowanie":
+        {
+            "typ": "technofob"
+        },
+        "produkcja":
+        {
+            "typ": "sredniak",
+            "historia_sredniej_produkcji": 3
+        },
+        "uczenie":
+        {
+            "typ": "oszczedny",
+            "limit_diamentow": 1000
+        },
+        "zmiana": "rewolucjonista",
+        "produktywnosc":
+        {
+                "programy": 100,
+                "jedzenie": 100,
+                "diamenty": 100,
+                "ubrania": 100,
+                "narzedzia": 100
+        },
+        "zasoby":
+        {
+            "diamenty": 200,
+            "ubrania": 50,
+            "narzedzia": 0,
+            "jedzenie": 200,
+            "programy": 50
+        }
+    }],
+
+    "spekulanci": [
+    {
+        "id": 12,
+        "kariera": {
+            "typ": "sredni",
+            "historia_spekulanta_sredniego": 2
+        },
+        "zasoby":
+        {
+            "diamenty": 10000,
+            "ubrania": 100,
+            "narzedzia": 100,
+            "jedzenie": 100,
+            "programy": 100
+        }
+    },
+    {
+        "id": 13,
+        "kariera": {
+            "typ": "regulujacy_rynek"
+        },
+        "zasoby":
+        {
+            "diamenty": 0,
+            "ubrania": 0,
+            "narzedzia": 1,
+            "jedzenie": 0,
+            "programy": 1
+        }
+    }]
+}
